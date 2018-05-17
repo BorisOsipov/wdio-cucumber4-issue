@@ -4,7 +4,7 @@ exports.getConfig = function () {
         specs:['passing.feature'],
         logLevel: 'error',
         services: ['phantomjs'],
-        reporters: ['dot'],
+        reporters: ['spec'],
         framework: 'mocha',
         sync: false,
         screenshotPath: './screenshots',
